@@ -71,7 +71,7 @@ const Sidebar = () => {
         <div className={classes.bottom}>
           <button className={classes.settingss}>
             <img src={supporticon} alt="Settings" className={classes.icon} />
-            {desktopOpen && "Settings"}
+            {desktopOpen && "Support"}
           </button>
           <button className={classes.settings}>
             <img src={settingsIcon} alt="Settings" className={classes.icon} />

@@ -92,6 +92,8 @@
   flex-direction: row;
   gap: 50px;
   justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: #EAECF0;
 }
 .inputGroup2 input {
   width: 600px;

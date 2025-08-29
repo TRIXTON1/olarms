@@ -79,6 +79,9 @@
   flex-direction: column;
   gap: 15px;
   padding: 20px 15px;
+  border-bottom: 1px solid ;
+  border-color: gray;
+
 }
 
 .nav a {
