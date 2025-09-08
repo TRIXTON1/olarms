@@ -154,3 +154,38 @@
   height: 56px;
   margin-top: 15px;
 }
+
+/* new */
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  position: absolute;
+  left: 10px;
+  width: 24px;   /* adjust size */
+  height: 16px;
+  pointer-events: none;
+  padding: 5px;
+  border-right: 2px solid rgb(223, 222, 222);
+}
+
+.newnew{
+  display: flex;
+  align-items: center;
+}
+
+.inputWrapper input {
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* left padding so text doesn’t overlap flag */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}

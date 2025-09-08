@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Settings.module.css';
 import profile from './assets/human.png'; // use your image path
 import camera from './assets/camera.png';   // use your camera icon
+import nigeriaFlag from "./assets/flag.png";
 
 const Settings = () => {
     return (
@@ -43,7 +44,16 @@ const Settings = () => {
                     </div>
                     <div className={classes.inputGroup}>
                         <label>Phone number</label>
-                        <input type="text" placeholder="070 1798 1231" />
+                        <div className={classes.inputWrapper}>
+                            <div className={classes.newnew}>
+                                <img src={nigeriaFlag} alt="Nigeria Flag" className={classes.flag} />
+                            </div>
+                            <input
+                                type="text"
+                                placeholder="070 1798 1231"
+                                style={{ paddingLeft: "50px" }}
+                            />
+                        </div>
                     </div>
                 </div>
 
